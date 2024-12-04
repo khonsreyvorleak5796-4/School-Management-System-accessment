@@ -28,9 +28,8 @@ app.get("/", (req, res) => {
 
 
 app.use("/api/class", classRoute);
-
 //connectDB
-connectDB();
+// connectDB();
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
